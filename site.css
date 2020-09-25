@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.chicken{
+    border: 1px solid black;
+    background-color: rgb(138, 138, 138);
+    width: 30%;
+    position: relative;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beef{
+    border: 1px solid black;
+    background-color: rgb(138, 138, 138);
+    width:30%;
+    position: relative;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sushi{
+    border: 1px solid black;
+    background-color: rgb(138, 138, 138);
+    width:30%;
+    position: relative;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.chicken span{
+    background-color: rgb(252, 152, 169);
+    font-weight: bold;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    padding: 05px;
+}
+
+.beef span{
+    background-color: rgb(134, 7, 28);
+    font-weight: bold;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    color: white;
+    padding: 05px;
+}
+.sushi span{
+    background-color: rgb(255, 247, 136);
+    font-weight: bold;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    padding: 05px;
+}
+
+.container{
+    width: 100%;
+    border: none;
+}
+
+/*Media queries*/
+
+@media (min-width:992px) and (max-width:1400px)  {
+    .col-lg-3{
+        width:30.33%;
+        float: left;
+        margin-left: 27px;
+    }
+
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .col-md-6{
+        width: 45%;
+        float: left;
+        margin-bottom: 20px;
+        margin-right:18px;
+        
+    }
+
+    .chicken{
+        margin-left: 39px;
+    }
+
+    .col-md-12{
+        clear: both;
+        width: 92%   ;
+
+    }
+}
+
+@media (max-width:767px) {
+        .col-sm-12{
+            width: 50%;
+            margin-bottom: 10px;
+        }
+}
